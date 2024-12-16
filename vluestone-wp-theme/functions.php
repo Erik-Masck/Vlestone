@@ -16,4 +16,15 @@ function vluestone_register_menus() {
     ));
 }
 add_action('after_setup_theme', 'vluestone_register_menus');
+
+// Register logo
+function mytheme_setup() {
+    add_theme_support( 'custom-logo', array(
+        'height'      => 120,
+        'width'       => 500,
+        'flex-height' => true,
+        'flex-width'  => true,
+    ) );
+}
+add_action( 'after_setup_theme', 'mytheme_setup' );
 ?>
