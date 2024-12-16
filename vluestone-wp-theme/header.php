@@ -68,9 +68,9 @@
     <!-- Navbar & Carousel Start -->
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
-            <a href="index.html" class="navbar-brand p-0">
-                <img src="img/Logo 1 Transparent.png" width="120" alt="" />
-            </a>
+            <?php if ( function_exists( 'the_custom_logo' ) ) {
+                    the_custom_logo();
+                }?>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
             </button>
