@@ -78,14 +78,14 @@
                 <div class="navbar-nav ms-auto py-0">
                     <a href="index.html" class="nav-item nav-link active">Home</a>
                     <a href="about.html" class="nav-item nav-link">Sobre</a>
-                    <div class="nav-item dropdown">
-                        <!--<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blog</a>
+                       <!--<div class="nav-item dropdown">
+                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blog</a>
                         <div class="dropdown-menu m-0">
                             <a href="blog.html" class="dropdown-item">Blog</a>
                             <a href="detail.html" class="dropdown-item">Canais</a>
-                        </div>-->
+                        </div>
                     </div>
-                    <!--<div class="nav-item dropdown">
+                    <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Portfólio</a>
                         <div class="dropdown-menu m-0">
                             <a href="Landingpages.html" class="dropdown-item">Landing pages</a>
