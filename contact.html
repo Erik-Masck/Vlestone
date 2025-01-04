@@ -179,22 +179,25 @@
             </div>
             <div class="row g-5">
                 <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
-                    <form>
+                    <form action="cad.php" method="get">
                         <div class="row g-3">
                             <div class="col-md-6">
-                                <input type="text" class="form-control border-0 bg-light px-4" placeholder="Nome" style="height: 55px;">
+                                <label for="nome"></label>
+                                <input type="text"  name="nome"  id="idnome" class="form-control border-0 bg-light px-4" placeholder="Nome" style="height: 55px;">
                             </div>
                             <div class="col-md-6">
-                                <input type="email" class="form-control border-0 bg-light px-4" placeholder="Seu Email" style="height: 55px;">
+                                <label for="email"></label>
+                                <input type="email" name="email" id="idemail" class="form-control border-0 bg-light px-4" placeholder="Seu Email" style="height: 55px;">
                             </div>
                             <div class="col-12">
-                                <input type="text" class="form-control border-0 bg-light px-4" placeholder="Serviço" style="height: 55px;">
+                                <label for="servico"></label>
+                                <input type="text" name="servico" id="idservico" class="form-control border-0 bg-light px-4" placeholder="Serviço" style="height: 55px;">
                             </div>
                             <div class="col-12">
                                 <textarea class="form-control border-0 bg-light px-4 py-3" rows="4" placeholder="Mensagem"></textarea>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Enviar Mensagem</button>
+                                <button class="btn btn-primary w-100 py-3" type="submit" value="Enviar">Enviar Mensagem</button>
                             </div>
                         </div>
                     </form>
