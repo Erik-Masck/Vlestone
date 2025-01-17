@@ -526,3 +526,11 @@ h6,
 .teste_img{
     background-color: #5135c083;
 }
+
+/** Contact **/ 
+
+@media (max-width: 480px) {
+    iframe {
+        width: 350px;
+    }
+}
